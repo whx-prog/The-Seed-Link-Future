@@ -6,12 +6,11 @@
 * **Oculus Integration版本：V39**
 
 ## 项目结构  
->main
->>The Seed(2022)
->>>Assets(游戏资源主目录)
->>>Logs
->>>Packages
->>>ProjectSetting
->>>UserSettings
+* **main**
+  * **Asset** 
+  * **Logs**
+  * **Packages**
+  * **ProjectSetting**
+  * **UserSetting**
 
 
