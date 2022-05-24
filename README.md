@@ -1,5 +1,8 @@
 .<div align=center><img src="https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Image_Seed.jpg" width="450" height="300" /></div>  
 <p align="center">  The-Seed </p>  
+ ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+ ![](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+  ![](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
 ___  
 .<div align=center>`The Seed`是一个基于[Unity](https://unity.cn/ "Unity")，硬件[Quest2](https://store.facebook.com/quest/products/quest-2/ "Quest2")的VR开发模板旨在帮助开发者快速构建VR游戏原型以及初学者快速入门</div>.<div align=center> 这个项目的名字来源于[川原砾](https://zh.wikipedia.org/wiki/%E5%B7%9D%E5%8E%9F%E7%A4%AB  "川原砾")所著的[Sword Art Online](https://en.wikipedia.org/wiki/Sword_Art_Online "Sword Art Online")中制作、管理VRMMO的免费软件的名称 </div>.<div align=center> 项目图片来自Sword Art Online 第一季第二十五集中片段（侵权则更换）</div>  
