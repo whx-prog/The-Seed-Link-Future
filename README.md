@@ -6,7 +6,7 @@ ___
 <p align="center">  The Seed 是一个基于Unity，硬件Quest2的一个VR开发模板，旨在帮助开发者快速构建VR游戏原型 </p> 
 
 <p align="center">  这个项目的名字来源于川原砾所著的《刀剑神域》 </p>   
-___  
+
 
 **声明**  
 ___  
