@@ -1,4 +1,8 @@
-# The-Seed-Link-Future
-一套基于Quest一体机硬件的VR/MR开发教程模板  
+.<div align=center><img src="https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Image_Seed.jpg" width="450" height="300" /></div>  
+<p align="center">  
+The-Seed  
+</p>  
+
+
 
  
