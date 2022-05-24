@@ -20,7 +20,7 @@ ___
  * [![](https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E8%A7%86%E9%A2%91%E8%AF%B4%E6%98%8E-Bilbili-ff69b4)](https://www.bilibili.com/video/BV1EY4y167vP/) 
  *  [![](https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E-%E6%96%87%E6%A1%A3-blueviolet)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Docs/Project.md)  
  * [![](https://img.shields.io/badge/TODO-%E6%96%87%E6%A1%A3-orange)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Docs/TODO.md) 
- * 项目讨论群（待更新）
+ * [![](https://img.shields.io/badge/%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC-%E7%BB%84%E7%BB%87%E7%BE%A4-informational)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Image/%E5%BC%80%E5%8F%91%E4%BA%A4%E6%B5%81%E7%BE%A4.png)
  * 项目官网（待更新）
  
  # 赞助与鸣谢  
