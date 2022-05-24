@@ -8,7 +8,7 @@
 ## 项目结构  
 >main
 >>The Seed(2022)
->>> - Assets(游戏资源主目录)
+>>>Assets(游戏资源主目录)
 >>>Logs
 >>>Packages
 >>>ProjectSetting
