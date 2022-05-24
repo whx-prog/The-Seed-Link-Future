@@ -7,10 +7,15 @@
 
 ## 项目结构  
 * **main**
-  * **Asset** 
+  * **Asset(游戏主资源文件)** 
   * **Logs**
   * **Packages**
   * **ProjectSetting**
   * **UserSetting**
+
+## 提交项目贡献规范  
+待定
+
+
 
 
