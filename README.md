@@ -17,8 +17,8 @@ ___
  # 开始  
  * Unity小白快速入门（待更新）
  * The Seed 使用以及贡献教程（待更新）
- * [![](https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E8%A7%86%E9%A2%91%E8%AF%B4%E6%98%8E-Bilbili-ff69b4)](https://www.bilibili.com/video/BV1EY4y167vP/)     
- * 项目说明文档（待更新）
+ * [![](https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E8%A7%86%E9%A2%91%E8%AF%B4%E6%98%8E-Bilbili-ff69b4)](https://www.bilibili.com/video/BV1EY4y167vP/) 
+ *  [![](https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E-%E6%96%87%E6%A1%A3-blueviolet)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Docs/Project.md)  
  * 用户手册（待更新）
  * 开发计划TODO（待更新）
  * 项目讨论群（待更新）
