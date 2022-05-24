@@ -2,8 +2,7 @@
 <p align="center">  The-Seed </p>  
 
 ___  
-.<div align=center>`The Seed`是一个基于[Unity](https://unity.cn/ "Unity")，硬件[Quest2](https://store.facebook.com/quest/products/quest-2/ "Quest2")的VR开发模板  
- 旨在帮助开发者快速构建VR游戏原型以及初学者快速入门</div>.<div align=center> 这个项目的名字来源于[川原砾](https://zh.wikipedia.org/wiki/%E5%B7%9D%E5%8E%9F%E7%A4%AB  "川原砾")所著的[Sword Art Online](https://en.wikipedia.org/wiki/Sword_Art_Online "Sword Art Online")中制作、管理VRMMO的免费软件的名称 </div>  
+.<div align=center>`The Seed`是一个基于[Unity](https://unity.cn/ "Unity")，硬件[Quest2](https://store.facebook.com/quest/products/quest-2/ "Quest2")的VR开发模板旨在帮助开发者快速构建VR游戏原型以及初学者快速入门</div>.<div align=center> 这个项目的名字来源于[川原砾](https://zh.wikipedia.org/wiki/%E5%B7%9D%E5%8E%9F%E7%A4%AB  "川原砾")所著的[Sword Art Online](https://en.wikipedia.org/wiki/Sword_Art_Online "Sword Art Online")中制作、管理VRMMO的免费软件的名称 </div>  
 # 声明 
 **一切开发旨在学习，请勿用于非法用途**
 * The Seed 是完全免费且开放源代码的软件，仅供学习和娱乐用途使用
