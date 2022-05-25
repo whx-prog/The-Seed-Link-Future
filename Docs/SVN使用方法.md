@@ -26,9 +26,12 @@
      * **4.1 修改项目后先右键Assets进行Update**  
      * **4.2 Update后进行commit，并写版本更新注释（每次commit之前都必须先update）**  
      * **4.3 若有新增文件可以右键Add添加新增文件，然后commit**  
+* **5.仓库管理（非常重要）**
+     *  可以直接在fork过去的仓库内容中进行修改，然后再Pull Request的时候把你的项目说明以及地址写在Readme.md里面
+     *  若是向直接pull request一个完整的unity项目，需要自己新建一个文件夹（以你的名字或者功能进行命名），然后Pull Request这个副本。
 #### 注意  
-     1.每次更新上传只需要上传Assets文件
-     2.每次更新必须先Update，再Commit
+     1.每次SVN的操作对象是被你Fork到自己仓库的仓库。
+     2.每次更新必须先Update，再Commit，并且unity上传同步的时候不需要同步Library（这个是本地编译出来的不用上传）
      3.Update遇到冲突的时候，右键红字进行冲突处理（可上网搜索如何处理SVN冲突）  
           
 ### 同步阶段Pull request  
