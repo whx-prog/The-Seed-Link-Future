@@ -7,7 +7,7 @@
 * SAO特有的技能释放  
 * 场景组成方式：类VRC  
 * 通关竞速  
-* 现有类似VR游戏参考：[Battle Talent](https://www.bilibili.com/video/BV1WF411u7B1?spm_id_from=333.337.search-card.all.click  "Battle Talent")     [剑与魔法](https://www.bilibili.com/video/BV1eJ41137eb?spm_id_from=333.337.search-card.all.click  "剑与魔法") 
+* 现有类似VR游戏参考：[Battle Talent](https://www.bilibili.com/video/BV1WF411u7B1?spm_id_from=333.337.search-card.all.click  "Battle Talent")         [剑与魔法](https://www.bilibili.com/video/BV1eJ41137eb?spm_id_from=333.337.search-card.all.click  "剑与魔法") 
 ___
 
 
