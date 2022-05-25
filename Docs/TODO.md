@@ -1,13 +1,13 @@
 # Sword Art Online 计划说明
 ### 计划说明  
-**SAO会是一个偏向魂系的沉浸式战斗游戏（主打战斗体验/刀剑战斗）**
+**SAO会是一个注重物理交互体验，沉浸式刀剑战斗的动作游戏（魂like敌人强大类型）**
 * 游戏平台：PCVR  
 * 游戏类型：冷兵器战斗/魂like  
 * 游戏模式：单人闯关/多人BOOS战(待定)  
 * SAO特有的技能释放  
 * 场景组成方式：类VRC  
 * 通关竞速  
-* 现有类似VR游戏参考：Battle Talent  剑与魔法  
+* 现有类似VR游戏参考：[Battle Talent](https://www.bilibili.com/video/BV1WF411u7B1?spm_id_from=333.337.search-card.all.click  "Battle Talent")     [剑与魔法](https://www.bilibili.com/video/BV1eJ41137eb?spm_id_from=333.337.search-card.all.click  "剑与魔法") 
 ___
 
 
