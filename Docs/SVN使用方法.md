@@ -20,7 +20,7 @@
 * **1.到目标仓库去，Fork目标到你自己的仓库下**
 * **2.在本地新建文件夹，进入文件夹后右键**  
 * **3.选择Checkout，并输入你自己fork过来的Github仓库地址
-    **第一次Checkout要求登录（登录使用自己登录github的账户，以及装备阶段生成的密钥Key作为密码输入）  
+    **第一次Checkout要求登录（登录使用自己登录github的账户，以及装备阶段生成的密钥Key作为密码输入）**  
     .<div align=center><img src="https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Image/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%99%BB%E5%BD%95.png" width="400" height="400" /></div>   
 * **4.非第一次**  
      * **4.1 修改项目后先右键Assets进行Update**  
@@ -29,4 +29,8 @@
 #### 注意  
      1.每次更新上传只需要上传Assets文件
      2.每次更新必须先Update，再Commit
-     3.Update遇到冲突的时候，右键红字进行冲突处理（可上网搜索如何处理SVN冲突）
+     3.Update遇到冲突的时候，右键红字进行冲突处理（可上网搜索如何处理SVN冲突）  
+          
+### 同步阶段Pull request  
+* 你的功能做完后，可以向主仓库发起pull request，并且写明你的开发内容方便管理者审查是否同意合并  
+* 审查通过后，你的提交将会被合并进入主仓库，你将成为共享这contributor。
