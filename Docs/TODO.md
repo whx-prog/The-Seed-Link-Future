@@ -1,6 +1,6 @@
-# Sword Art Online 计划说明
+# SAO Battle Simulator 计划说明
 ### 计划说明  
-**SAO会是一个注重物理交互体验，沉浸式刀剑战斗的动作游戏（魂like敌人强大类型）**
+**SAO Battle Simulator会是一个注重物理交互体验，沉浸式刀剑战斗的动作游戏（魂like敌人强大类型）**
 * 游戏平台：PCVR  
 * 游戏类型：冷兵器战斗/魂like  
 * 游戏模式：单人闯关/多人BOOS战(待定)  
