@@ -1,4 +1,4 @@
-# Sword Art Online 计划说明以及TODO  
+# Sword Art Online 计划说明
 ## 计划说明  
 **SAO会是一个偏向魂系的沉浸式战斗游戏（主打战斗体验/刀剑战斗）**
 * 游戏平台：PCVR  
