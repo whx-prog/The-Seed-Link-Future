@@ -47,7 +47,7 @@ ___
     * - [ ] 双手战斧
     * - [ ] 双手剑
     * - [ ] 匕首
-    具体参考： [SAO WIKI](https://www.bilibili.com/video/BV1eJ41137eb?spm_id_from=333.337.search-card.all.click  "SAO WIKI") 
+    具体参考： [SAO WIKI](https://swordartonline.fandom.com/wiki/Sword_Skills  "SAO WIKI") 
 ### 场景  
 * - [ ] 教学关卡野猪
 * - [ ] 第一层Boss
