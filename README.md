@@ -43,7 +43,7 @@ SOFTWARE.
  *  [![](https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E-%E6%96%87%E6%A1%A3-blueviolet)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Docs/Project.md)  
  * SAO项目进度[![](https://img.shields.io/badge/TODO-%E6%96%87%E6%A1%A3-orange)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Docs/TODO.md) 
  * [![](https://img.shields.io/badge/%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC-%E7%BB%84%E7%BB%87%E7%BE%A4-informational)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Image/%E5%BC%80%E5%8F%91%E4%BA%A4%E6%B5%81%E7%BE%A4.png)  [![](https://img.shields.io/badge/%E7%BE%8E%E6%9C%AF%E7%BE%A4%E7%BB%84-%E5%BE%AE%E4%BF%A1-success)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Image/%E7%BE%8E%E6%9C%AF%E5%BE%AE%E4%BF%A1%E7%BE%A4.png)[![](https://img.shields.io/badge/%E7%BE%8E%E6%9C%AF%E7%BE%A4%E7%BB%84-%E8%85%BE%E8%AE%AF-blue)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Image/%E7%BE%8E%E6%9C%AFQ%E7%BE%A4.png)
- * [游戏设计提交文档说明](https://zh.wikipedia.org/wiki/%E5%B7%9D%E5%8E%9F%E7%A4%AB  "游戏设计提交文档说明")
+ * [游戏设计提交文档说明](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/SAO_GameDesign/UCG_upload.md  "游戏设计提交文档说明")
  * 项目官网（待更新）
  
  # 赞助与鸣谢  
