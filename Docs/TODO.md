@@ -11,7 +11,7 @@
 * 使用原著中的交互界面
 * 提供原著中相同的登陆过程
 * 重要的风景场景  
-* 需要：**建模/渲染/技术美术/数值系统设计**
+* 需要：**主美(极缺，已有20人美术团队)以及建模/渲染/技术美术/特效（缺）**
 * [![](https://img.shields.io/badge/%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC-%E7%BB%84%E7%BB%87%E7%BE%A4-informational)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Image/%E5%BC%80%E5%8F%91%E4%BA%A4%E6%B5%81%E7%BE%A4.png)
 * 现有类似VR游戏参考：[Battle Talent](https://www.bilibili.com/video/BV1WF411u7B1?spm_id_from=333.337.search-card.all.click  "Battle Talent")         [剑与魔法](https://www.bilibili.com/video/BV1eJ41137eb?spm_id_from=333.337.search-card.all.click  "剑与魔法") 
 ___
