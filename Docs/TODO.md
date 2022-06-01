@@ -16,9 +16,6 @@
 * 现有类似VR游戏参考：[Battle Talent](https://www.bilibili.com/video/BV1WF411u7B1?spm_id_from=333.337.search-card.all.click  "Battle Talent")         [剑与魔法](https://www.bilibili.com/video/BV1eJ41137eb?spm_id_from=333.337.search-card.all.click  "剑与魔法") 
 ___
 
-# 项目模块拆分  
-待更新...  
-
 
 # TODO
 ### 角色系统
@@ -62,8 +59,8 @@ ___
 * - [ ] 死亡破碎特效（同登录特效）  
 * - [ ] 技能蓄力武器辉光Shader/粒子特效拖尾
 ### 音效  
-* - [ ] 武器挥舞（各类音效）
-* - [ ] 普通击中（可以统一）
+* - [X] 武器挥舞（各类音效）
+* - [X] 普通击中（可以统一）
 * - [ ] 暴击集中反馈（包括要害集中）
 * - [ ] 技能蓄力
 * - [ ] 技能释放（技能音效/人物喊声）
@@ -80,4 +77,5 @@ ___
 * - [ ] 死亡破碎
 ### 交互系统  
 * - [ ] UI高清重置  
+* - [X] 操作系统  
 .<div align=center><img src="https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Image/UI.png" width="450" height="300" /></div>  
