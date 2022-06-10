@@ -114,4 +114,4 @@ n的数值和敏捷正相关、和动物体型负相关
 
 **环境——动物交互模式系统：**
 
-![1](D:\1github\trunk\SAO_GameDesign\悠悠蓝\1.png)
+![f8e6a963782dc6bf56132942fa96e54](https://user-images.githubusercontent.com/62455460/173074895-ed3c6063-f808-47ef-a9c1-a9db16c00b17.png)
