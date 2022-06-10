@@ -114,4 +114,4 @@ n的数值和敏捷正相关、和动物体型负相关
 
 **环境——动物交互模式系统：**
 
-![image-20220610211752167](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220610211752167.png)
+![1](D:\1github\trunk\SAO_GameDesign\悠悠蓝\1.png)
