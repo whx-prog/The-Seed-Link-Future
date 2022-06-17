@@ -36,14 +36,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\DictionaryList.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\FloatToStringEvent.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Intents\WitIntent.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WitRequest.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Traits\WitTrait.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\WitValue.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\IDynamicEntitiesProvider.cs" />
+     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Settings\WitSettings.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\IRequest.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitApplication.cs" />
+     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\ResponseManager\MatchIntent.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitConfigurationData.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitRequestCreatedEvent.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WitAuthUtility.cs" />
@@ -59,12 +62,15 @@
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitConfiguration.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitResponseEvent.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitEntity.cs" />
+     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Intents\WitIntentData.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitEntityRole.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitEndpointConfig.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitDynamicEntities.cs" />
+     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\ConfidenceRange.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitRuntimeConfiguration.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Lib\WitResponse.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\WitStringValue.cs" />
+     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Settings\WitSettingsUtility.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\WitResponseHandler.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\WitIntValue.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Traits\WitTraitValue.cs" />
@@ -73,13 +79,16 @@
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\WitFloatValue.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Wit.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\VoiceService.cs" />
+     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitEntityData.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Keywords\WitKeyword.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WrapHttpWebRequest.cs" />
+     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\ResponseManager\MatchIntentRegistry.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitMicLevelChangedEvent.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\SimpleIntentHandler.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitByteDataEvent.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\WitResponseMatcher.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\CoroutineUtility.cs" />
+     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\OutOfScopeUtteranceHandler.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\SimpleStringEntityHandler.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitRequestOptions.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\AudioEncoding.cs" />
@@ -339,31 +348,31 @@
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -738,10 +747,10 @@
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -49,6 +49,7 @@
      <Compile Include="Assets\Oculus\VR\Scripts\OVRXRSDKNative.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRResources.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRHand.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRSpatialAnchor.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRHaptics.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSkeletonRenderer.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRComposition.cs" />
@@ -62,7 +63,9 @@
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRMesh.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRHandTest.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGrabbable.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRSpace.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRSceneLoader.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRSemanticClassification.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRPlatformMenu.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRProfiler.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGearVrControllerTest.cs" />
@@ -75,6 +78,7 @@
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRInputModule.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRCustomSkeleton.cs" />
      <Compile Include="Assets\Oculus\VR\ThirdParty\SimpleJSON.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRSceneManager.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRExternalComposition.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRPlugin.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRVignette.cs" />
@@ -103,19 +107,24 @@
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRRaycaster.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRRuntimeController.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRRuntimeSettings.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRScenePlane.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRHapticsClip.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRSceneModelLoader.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRDebugHeadController.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRResetOrientation.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSystemPerfMetrics.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRScenePrefabOverride.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRChromaticAberration.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSkeleton.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRCameraComposition.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRSceneVolume.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVROverlayMeshGenerator.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRMixedRealityCaptureSettings.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRControllerHelper.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRAutoDestroyInMRC.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRTracker.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRTrackedKeyboard\OVRTrackedKeyboard.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRSceneAnchor.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRMixedRealityCaptureConfiguration.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OculusXRFeature.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRKtxTexture.cs" />
@@ -393,31 +402,31 @@
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -792,13 +801,13 @@
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

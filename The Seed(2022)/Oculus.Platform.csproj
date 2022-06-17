@@ -38,48 +38,45 @@
   <ItemGroup>
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\AchievementProgress.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\MatchmakingAdminSnapshotCandidate.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\ApplicationInvite.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\RejoinDialogResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\PingResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\CalApplicationFinalized.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Party.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Encoder.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Party.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\RoomType.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\CloudStorageConflictMetadata.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\MultiplayerErrorOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\PlatformInitialize.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\VoipBitrate.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\InvitePanelResultInfo.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\SupplementaryMetric.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\NetSyncVoipStreamMode.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\RichPresenceExtraContext.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\VoipAudioSourceHiLevel.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncConnection.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\ApplicationInvite.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\Error.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\LeaderboardManager.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\ChallengeCreationType.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrVoiceChat\Scripts\PlatformManager.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\LaunchDetails.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\UserDataStoreUpdateResponse.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\ChallengeOptions.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncSession.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\LivestreamingApplicationStatus.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrBoardGame\Scripts\PlatformManager.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\AbuseReportVideoMode.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\ServiceProvider.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\Purchase.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncSessionsChangedNotification.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\VoipMuteState.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\PartyID.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\VoipPCMSourceNative.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrVoiceChat\Scripts\VoipManager.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\Pid.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\SupplementaryMetric.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\SendInvitesResult.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncConnection.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\ChallengeEntry.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\MatchmakingEnqueuedUser.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\RejoinDialogResult.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\LaunchResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrBoardGame\Scripts\GameController.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\LaunchType.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\LaunchInvitePanelFlowResult.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\LaunchResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Callback.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\NetSyncOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\GroupPresenceSample\Scripts\GroupPresenceSample.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\DeserializeableList.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Challenge.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\CallbackRunner.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\CloudStorageUpdateStatus.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\ShareMediaStatus.cs" />
@@ -89,14 +86,12 @@
      <Compile Include="Assets\Oculus\Platform\Scripts\PlatformInitializeResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\LeaderboardEntry.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\Product.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncSetSessionPropertyResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\CalApplicationSuggestion.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\NetSyncVoipMicSource.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\UserReportID.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\MatchmakingStats.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\MultiplayerErrorOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\CloudStorageMetadata.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\CloudStorageData.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\GroupPresenceOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\ShareMediaResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\RoomMembershipLockStatus.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Packet.cs" />
@@ -105,13 +100,19 @@
      <Compile Include="Assets\Oculus\Platform\Scripts\WindowsPlatform.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Platform.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\LaunchFriendRequestFlowResult.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\PartyUpdateAction.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\AbuseReportVideoMode.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\MultiplayerErrorErrorKey.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\PartyUpdateNotification.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrBoardGame\Scripts\BoardPosition.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\AdvancedAbuseReportOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\CAPI.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\RemotePlayer.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\PermissionGrantStatus.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\LaunchInvitePanelFlowResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\InstalledApplication.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\ChallengeOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\UserOptions.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\UserDataStoreUpdateResponse.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\AIPlayer.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\NetChat\DataEntry.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrBoardGame\Scripts\GameBoard.cs" />
@@ -120,47 +121,44 @@
      <Compile Include="Assets\Oculus\Platform\Scripts\MediaContentType.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\AchievementUpdate.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrBoardGame\Scripts\IAPManager.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\MultiplayerErrorErrorKey.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\SdkAccountType.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrVoiceChat\Scripts\VREyeRaycaster.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\P2PNetworkBall.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Destination.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\OrgScopedID.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\LeaderboardFilterType.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\LinkedAccount.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\ChallengeCreationType.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\ChallengeVisibility.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\P2PNetworkGoal.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\BufferedAudioStream.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\CloudStorageUpdateResponse.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetworkingPeer.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\PlatformInternal.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncSessionsChangedNotification.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\InvitePanelResultInfo.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\LivestreamingMicrophoneStatus.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\RichPresenceExtraContext.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\NetSyncConnectionStatus.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Leaderboard.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\PlatformManager.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\RoomJoinPolicy.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\MatchmakingStatApproach.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\RichPresenceOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\MatchmakingBrowseResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\Camera2DController.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\AssetFileDownloadCancelResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\AssetFileDownloadUpdate.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\LaunchReportFlowResult.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\GroupPresenceLeaveIntent.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrBoardGame\Scripts\EyeCamera.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\MatchmakingCriterionImportance.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\ChallengeVisibility.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\BallEjector.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\NetSyncVoipStreamMode.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Challenge.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\BlockedUser.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\UserAndRoom.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Team.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\ChallengeViewerFilter.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\NetSyncDisconnectReason.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\HttpTransferUpdate.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\DetectBasket.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\VoipAudioSource.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\LaunchBlockFlowResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\MicrophoneInput.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\VoipSampleRate.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\GroupPresenceJoinIntent.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\LanguagePackInfo.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\VREyeRaycaster.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\SystemVoipState.cs" />
@@ -168,24 +166,26 @@
      <Compile Include="Assets\Oculus\Platform\Scripts\KeyValuePairType.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\AssetDetails.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrBoardGame\Scripts\GamePiece.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\AdvancedAbuseReportOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\User.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\EntitlementCheck\EntitlementCheck.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\NetSyncOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\RoomJoinability.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\AndroidPlatform.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\RoomInviteNotification.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\ChallengeViewerFilter.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\RichPresenceOptions.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\SendInvitesResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\SendPolicy.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\LeaderboardStartAt.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\NetSyncConnectionStatus.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\AbuseReportRecording.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\P2PManager.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\ChallengeEntry.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\UserOrdering.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\MatchmakingAdminSnapshot.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\LivestreamingAudience.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\UserCapability.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\PlayerArea.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\MatchmakingManager.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\MicrophoneAvailabilityState.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncVoipAttenuationValue.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\LivestreamingStartStatus.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\PermissionType.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\UserProof.cs" />
@@ -200,42 +200,43 @@
      <Compile Include="Assets\Oculus\Platform\Scripts\AchievementType.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\StandalonePlatform.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\IMicrophone.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\UserCapability.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\MicrophoneInputNative.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\RosterOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Message.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrBoardGame\Scripts\MatchmakingManager.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Request.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\Room.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\PartyUpdateNotification.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncSetSessionPropertyResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\LocalPlayer.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\InviteOptions.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\MicrophoneAvailabilityState.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\RosterOptions.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\PartyUpdateAction.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Destination.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\SystemPermission.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\GroupPresenceOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\AchievementsManager.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\GroupPresenceJoinIntent.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Decoder.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncVoipAttenuationValue.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\InviteOptions.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\PlatformSettings.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Leaderboard.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncSession.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\LivestreamingStartResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\VoipDtxState.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\StandalonePlatformSettings.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\LivestreamingVideoStats.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\RoomOptions.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\GroupPresenceLeaveIntent.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\LaunchUnblockFlowResult.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\SystemVoipStatus.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\MatchController.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\UserPresenceStatus.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\VoipOptions.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\NetSyncVoipMicSource.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrVoiceChat\Scripts\P2PManager.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\MatchmakingOptions.cs" />
-     <Compile Include="Assets\Oculus\Platform\Scripts\NetSyncDisconnectReason.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\Models\ApplicationVersion.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\PeerConnectionState.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\GoalMover.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\FlyText.cs" />
      <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\Player.cs" />
+     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Team.cs" />
      <Compile Include="Assets\Oculus\Platform\Scripts\IVoipPCMSource.cs" />
      <None Include="Assets\Oculus\Platform\Oculus.Platform.asmdef" />
     <Reference Include="UnityEngine">
@@ -491,31 +492,31 @@
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -890,10 +891,10 @@
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:\VR_gameTest\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
