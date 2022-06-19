@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_2;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_2;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;UNITY_CCU;CURVEDUI_TMP;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -192,30 +192,85 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SelectivePassthroughExperience.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
+     <Compile Include="Assets\Trails FX\Demo\Scripts\RotateObject.cs" />
+     <Compile Include="Assets\Trails FX\Demo\Scripts\MoveObject.cs" />
+     <Compile Include="Assets\Trails FX\Scripts\TrailEffect.cs" />
+     <Compile Include="Assets\Trails FX\Demo\Scripts\Shooter.cs" />
+     <Compile Include="Assets\Trails FX\Scripts\TrailEffectProfile.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_GunController.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_inventory_paralax.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ViveHapticPulse.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIRaycaster.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_CameraController.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\Experimental\CurvedUITMPSubmesh.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUILaserBeam.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\OptionalDependencyAttribute.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ChangeValueOnHold.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ViveButtonState.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_WorldSpaceCursorFollow.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIVertexEffect.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIEventSystem.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_PickImageFromSet.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_PerlinNoisePosition.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_GunMovement.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_MoveAlong.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_RiseChildrenOverTime.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_TMPChecker.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIInputModule.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_touchpad.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIHandSwitcher.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIPhysicsRaycaster.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ChangeColor.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIInputFieldCaret.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\Experimental\CurvedUITMPInputFieldCaret.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_RaycastToCanvas.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUISettings.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIExtensionMethods.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\Experimental\CurvedUITMP.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_PerlinNoiseRotation.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_WorldSpaceMouseMultipleCanvases.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_CameraRotationOnButtonHeld.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIPointerEventData.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_AnimateCurvedFillOnStart.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_rotation_anim.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_draggable.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_OrientOnCurvedSpace.cs" />
+     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIViveController.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_MoveHeartbeat.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_DragBetweenCanvases.cs" />
+     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ShowParentCoordinates.cs" />
+     <Compile Include="Assets\Latifa V2 3D - Anime Style\Demo\Scripts\UIManager.cs" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\Hidden.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\Wall.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
+     <None Include="Assets\Latifa V2 3D - Anime Style\Advance Unlit Shader\Advance Unlit.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\SelectivePassthrough.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\SelectivePassthroughSoft.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\OverwriteAlpha.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
+     <None Include="Assets\Trails FX\Resources\TrailsFX\TrailEffectDistort.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\Latifa V2 3D - Anime Style\ReadMe!.txt" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\PassthroughLine.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\BackgroundColor.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\FatFingers.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\Trails FX\Resources\TrailsFX\TrailEffectOutline.shader" />
+     <None Include="Assets\CurvedUI\CurvedUI_changelog.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\InvisibleOccluder.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
+     <None Include="Assets\Trails FX\README.txt" />
      <None Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Trails FX\Resources\TrailsFX\TrailClearMask.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\Video\Shaders\Multiview Stereo.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat\OFL.txt" />
      <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Default Correct.shader" />
@@ -230,7 +285,11 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Trails FX\Resources\TrailsFX\TrailEffectColor.shader" />
+     <None Include="Assets\Trails FX\Resources\TrailsFX\TrailMask.shader" />
+     <None Include="Assets\Trails FX\Resources\TrailsFX\TrailEffectClone.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\GlowEffect.shader" />
+     <None Include="Assets\Trails FX\Resources\TrailsFX\TrailEffectTextureStamp.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainSmokeShader.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Prerendered Opaque.shader" />
@@ -241,6 +300,7 @@
      <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\SceneObjectPreview.shader" />
+     <None Include="Assets\Trails FX\Resources\TrailsFX\TrailEffectLaser.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Prerendered.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_Transparent.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -496,13 +556,16 @@
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -877,133 +940,143 @@
         <HintPath>E:\u3d_lastVersion\2021.3.2f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>E:\Game_development\The seed\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>E:\Game_development\Seed(V40)\trunk\The Seed(2022)\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{3211c336-ac45-7aaf-2db4-861732552028}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
       <Project>{b5508949-034c-740e-d56d-e052e84c9ba5}</Project>
       <Name>Oculus.Platform</Name>
