@@ -1,0 +1,207 @@
+﻿
+
+CurvedUI changelog--------------------------------//
+3.2
+Bugfixes
+- Fixed an issue where TMP Text would not clear properly. 
+- Fixed a compile error in Unity 2020.1 and above.
+- Removed Shaders that could show errors on URP and HDRP in Unity 2020.
+- Fixed errors showing in Prefab Mode and added more descriptive messages.
+
+3.1
+New
+- Added support for Oculus Integration v19.1 and above. 
+- Added a global Layer Mask for easier control over interactions.
+Bugfixes
+- Fixed an issue that could cause the UI to become unresponsive in Android platform builds. 
+- Fixed a naming conflict with Selectable class from other VR assets.
+- Fixed an issue where Controller Override would not work in some Control Methods. If you are using this feature, you may need to re-assign your reference.
+- Fixed an issue where CurvedUIPhysicsRaycaster would always raycast on all layers.
+Changes
+- CurvedUI now requires Unity 2018.4 or above.
+- RaycastMyLayerOnly property has been deprecated to make room for new global Layer Mask.
+
+3.0
+New
+- Added support for Unity XR Interaction Toolkit.
+- Added support for interactions with 3D objects via EventTrigger components on all control methods.
+Bugfixes
+- Fixed an issue which could cause UI to be unresponsive to clicks in builds, even though it worked in Editor.
+- Fixed an issue where cyrillic or chinese characters would be improperly displayed on dropdowns. Big thanks to Patrick M. for this one!
+
+
+2.8p2
+New
+- CurvedUI will now check for common scene setup issues and let you know what might be happening.
+Bugfixes
+- Fixed GoogleVR issues on Unity 2019.2
+- Updated demo scenes to include prefabs from new version of major SDKs.
+
+2.8p1
+Bugfixes
+- Fixed an issue where dropdown would not work properly in Unity 2019+
+- Fixed an issue where UI elements would be unresponsive on ultra wide aspect ratios.
+- Fixed an issue where Text Mesh Pro objects would cause uneccesary performance cost when placed on scroll rects.
+- Fixed an issue where Input Fields would get deselected on some control methods when user moves the pointer outside.
+- Fixed an issue where TMP Input Fields would be improperly masked.
+
+2.8
+New
+- Added support for Player Prefab from SteamVR's Interaction system.
+- Improved performance with Text Mesh Pro.
+- Small improvements to make SteamVR Plugin setup easier.
+- CurvedUI will now automatically detect if Text Mesh Pro is present - no setup needed.
+
+Bugfixes
+- Fixed an issue that might cause a crash when curving super-long TMPro texts.
+- Fixed code compilation warnings in Unity 2019
+
+
+2.7p1
+Bugfixes
+- Fixed an issue in Gaze control method when pointing in and out of the canvas after a click would fire another click immidiately upon returning.
+
+
+2.7
+New
+- Added support for SteamVR 2.0+
+- Added an easy way to override pointer direction and origin for non-standard controllers.
+
+Bugfixes
+- Fixed gc leak in custom ray control method.
+- GAZE control method will now properly work with vertical sliders.
+- Dragging a slider will no longer cause it to flicker.
+
+
+2.6p2
+CurvedUI will now support VRTK with OculusSDK.
+
+
+2.6p1
+Bugfixes
+- Fixed an issue which caused Image and Texts sometimes revert to flat versions.
+- Fixed small gc leak.
+
+
+2.6 
+New
+- Added support for TMP Input Field' caret and selection.
+- GearVR touchpad can now be used to click objects on canvas without having to be set up in Unity InputManager first.
+- Added support for Oculus Go. Thanks to John for helping to test things out.
+
+Bugfixes
+-Fixed an issue where dropdowns could not be operated in OculusVR control 
+method.
+-Fixed an issue where objects with interactable property set to false could still be 
+clicked with Gaze control method.
+-Reduced GC allocation in continuously updated objects. Big thanks to Marko for 
+suggestions.
+-Fixed improper slider value being set when clicked with Gaze control method on 
+Unity 2017.3+
+-Fixed TMP objects not working as templates of a dropdown.
+-Fixed an issue where Gaze Progress Image would not animate properly with 2 or 
+more curved canvases on the screen.
+-Fixed an issue where changing the fill of an image would not prompt CurvedUI to 
+update it.
+Fixed an issue where Grip and Menu button presses where not properly fired in CurvedUIViveController class.
+
+
+2.5p1
+- fixed compile error on some Unity versions when used in SteamVR control method
+
+
+2.5
+New
+-CurvedUI can now auto detect newest version of Text Mesh Pro and automatically enable support for it. A big thank you to TMP author - Stephan_B - for providing a way for this.
+- CurvedUI will now automatically check for interactable objects outside of the canvas and suggest a fix.
+- Added public PointingAtCanvas bool for easy access to this data.
+- CurvedUILaserBeam now has an option to hide the beam when not aiming at a canvas.
+- OCULUSVR control method will now support GearVR remote.
+
+Changes
+- Renamed VIVE control method to STEAMVR control method. It now supports Vive, Oculus, Microsoft Mixed Reality and all other devices using SteamVR SDK.
+- Renamed OCULUS TOUCH control method to OCULUSVR control method. It now supports Oculus, GearVR and (in the future) Oculus Go headsets.
+
+Bugfixes
+-Fixed a bug where some VRTK rigs would throw a null reference exception when used with CurvedUI
+-Fixed an issue where TMP Submeshes would be curved twice.
+-Fixed an issue where some TMP objects would be deformed in Edit mode.
+-Fixed an issue with GAZE control method where progress bar would stay full if scene was launched without a visible canvas.
+-Fixed an issue where large scale (ex. 1,1,1) canvases with very small size (ex. 1x1) would suffer from bad curve quality.
+
+2.4
+New and Improved
+-Added Support for GoogleVR SDK 1.110 or later.
+Changes
+-Removed support for Unity 5.2 and earlier for clearer code base.
+-Removed Daydream control method. Use GoogleVR control method for Daydream apps instead.
+-CurvedUI now requires Unity 5.6 and up to run GoogleVR. Other control methods can be used in earlier versions of Unity.
+
+Bugfixes
+-Fixed a bug where adding CurvedUI to a GoogleVR demo scene required additional modifications of components on EventSystem gameobject.
+-Gaze control method will now properly fire all click events.
+-Gaze control method will now properly work with dropdowns.
+-RaycastToCanvasSpace method will now properly take canvas’ layer into account.
+-Fixed a bug where using ScrollView with Custom Ray control method would make it jump upon pressing down the controller.
+
+
+2.3p1
+New and Improved:
+-Updated GoogleVR demo scene to Google VR Unity SDK 1.70
+
+Bugfixes:
+-Fixed a memory leak issue that sometimes affected canvases with TMP components.
+-CurvedUISettings.CanvasToCurvedCanvas method will now work before first Update.
+
+
+2.3
+New and Improved:
+-Updated OrientOnCurvedSurface.cs script to work in every possible case.
+-Cached some references in scripts for added performance.
+-Raycast My Layer Only is now default option for new canvases.
+
+Bugfixes:
+-Gaze Click now works on toggles.
+-Gaze Click will no longer fire when no Selectable is under the pointer.
+-Gaze Click will no longer fire on disabled Buttons.
+-Fixed Gaze Click firing multiple times in single frame with multiple canvases on the scene.
+-Fixed Gaze Control Method not firing OnBeginDrag and OnEndDrag events.
+-Fixed Text Mesh Pro support excessive performance cost due to constant updates.
+-Fixed OnPointerExit and OnPointerEnter events being called every frame with Custom Ray control method.
+-Fixed erratic scroll behaviour with Custom Ray control method.
+
+
+2.2:
+New and Improved:
+-Added support for switching to Vive control method during runtime.
+-Vive Control method now also supports Oculus Touch when used via SteamVR. This includes adjusted pointing direction.
+-Controller hand can now be picked for Oculus Touch
+-Oculus Touch control method will now automatically find hand controllers.
+-Unified variable names across namespace. ActiveVRController is now Hand. CurvedUIController is now CUIControlMethod.
+-Added an error message for when EventSystem component is missing from the scene.
+-Added a controlling hand auto switcher script to allow you to replicate the behavior in Oculus Home using your menu.
+-Added an option to force box collider use for cylinder and ring canvases.
+-Removed or resized some assets from Demo Scenes to make the package smaller.
+
+Bugfixes:
+-Fixed a bug where "Raycast My Layer Only" option would not work on canvases that are children of rigidbodies.
+-Fixed an issue where objects were not properly deselected in Custom Ray control method.
+-Fixed jittery motion in Dragging with Gaze demo
+-Fixed Text Mesh Pro submeshes not being properly Curved
+-Fixed sudden jump that occurred for some scrollrects when using Gaze control method.
+-Fixed Input caret not working on multi-line Input fields.
+-Gaze demo scene will now work when launched on mobiles.
+-Fixed an issue where turning off a controller during runtime would throw index out of bounds exception
+-Fixed a bug where Text Mesh Pro objects would wiggle when planced on a canvas attached to a steamvr controller.
+-"Remove Effect From Canvas" will now properly remove TMP related components.
+
+
+2.1p1
+Fixed Unity 5.6 compile bug.
+Fixed World Space Mouse demo scene.
+
+
+2.1:
+Moved all the scripts to CurvedUI namesspace. You may need to add "using CurvedUI;" to your scripts accessing CurvedUI methods.
+Fixed a bug where CurvedUI would not compile on some older unity versions.
+Fixed a bug where objects with z different than 0 would not be rendered in a right spot in sphere canvas.
