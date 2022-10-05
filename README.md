@@ -45,14 +45,12 @@ SOFTWARE.
  ```
  
  # 开始  
- * [Seed DAO社区Discord](https://discord.gg/UrrNbuTu  "Seed DAO社区Discord")
- * [项目官方Youtube频道](https://www.youtube.com/channel/UCFZ1JyDbq59OhaDA9U253lQ   "项目官方Youtube频道")
+ * [![](https://img.shields.io/badge/%E7%A4%BE%E5%8C%BA%E6%80%BB%E7%BE%A4-%E4%B8%AD%E5%9B%BD%E7%89%88Discord-blue)](https://pd.qq.com/s/e9ennf) 
  * Unity教程[![](https://img.shields.io/badge/%E5%BF%AB%E9%80%9F%E4%BB%8B%E7%BB%8D-Bilibili-ff69b4)](https://www.bilibili.com/video/BV1yF411V7Uy/)  [![](https://img.shields.io/badge/%E5%AE%8C%E6%95%B4%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B-Bilibili-ff69b4)](https://www.bilibili.com/video/BV1Mr4y1X76H?spm_id_from=333.337.search-card.all.click) 
  * 完整的开发以及提交贡献流程： [![](https://img.shields.io/badge/SVN-%E6%95%99%E7%A8%8B%E6%96%87%E6%A1%A3-red)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Docs/SVN%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.md)  [![](https://img.shields.io/badge/%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B-Bilibili-ff69b4)](https://www.bilibili.com/video/BV1uY4y1B7AZ/)
  * [![](https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E8%A7%86%E9%A2%91%E8%AF%B4%E6%98%8E-Bilbili-ff69b4)](https://www.bilibili.com/video/BV1EY4y167vP/) 
  *  [![](https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E-%E6%96%87%E6%A1%A3-blueviolet)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Docs/Project.md)  
  * SAO项目进度[![](https://img.shields.io/badge/TODO-%E6%96%87%E6%A1%A3-orange)](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/Docs/TODO.md) 
- * [![](https://img.shields.io/badge/%E7%A4%BE%E5%8C%BA%E6%80%BB%E7%BE%A4-%E4%B8%AD%E5%9B%BD%E7%89%88Discord-blue)](https://pd.qq.com/s/e9ennf) 
  * [游戏设计提交文档说明](https://github.com/whx-prog/The-Seed-Link-Future/blob/main/SAO_GameDesign/UCG_upload.md  "游戏设计提交文档说明")
  * 项目官网（待更新）
  
